@@ -3,7 +3,7 @@ import 'dart:io';
 void main() {
   stdout.write("Masukkan suhu : ");
 
-  String input = stdin.readLineSync()!;
+  dynamic input = stdin.readLineSync();
   double fahrenheit = double.parse(input);
   double reamur = double.parse(input);
   double kelvin = double.parse(input);
