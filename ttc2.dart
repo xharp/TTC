@@ -13,7 +13,7 @@ void main() {
   suhu2 = reamur * 5 / 4;
   suhu3 = kelvin - 273.15;
 
-  print('$fahrenheit derajat Fahrenheit = $suhu1 derajat Celcius');
-  print('$reamur derajat Reamur = $suhu2 derajat Celsius');
-  print('$kelvin derajat Kelvin = $suhu3 derajat Celsius');
+  print('$fahrenheit derajat Fahrenheit = ${suhu1.toStringAsFixed(2)} derajat Celcius');
+  print('$reamur derajat Reamur = ${suhu2.toStringAsFixed(2)} derajat Celsius');
+  print('$kelvin derajat Kelvin = ${suhu3.toStringAsFixed(2)} derajat Celsius');
 }
